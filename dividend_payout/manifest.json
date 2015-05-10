@@ -1,0 +1,10 @@
+{
+  "pluginVersion": 1,
+  "name": "Dividend Payout",
+  "myVersion": "v.1.0",
+  "shortDescription": "This plugin is for showing built in dividend payments",
+  "infoUrl": "https://github.com/libertyswede/dividend_payout",
+  "startPage": "p_dividend_payout",
+  "nrsVersion": "1.5.0",
+  "deactivated": false
+}

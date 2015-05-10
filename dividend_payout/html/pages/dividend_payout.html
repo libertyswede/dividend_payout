@@ -1,0 +1,38 @@
+<div id="p_dividend_payout_page" class="page">
+    <section class="content-header">
+        <h1>Dividend Payout Plugin</h1>
+    </section>
+    <section class="content">
+		<form class="sidebar-form" id="transactionForm" style="width: 400px; margin-left:0px;" >
+			<div class="input-group">
+				<input type="text" class="form-control" id="transactionId" style="background-color:#fcfcfc;" placeholder="Search By Transaction Id...">
+				<span class="input-group-btn">
+					<button type="submit" class="btn btn-flat"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+		</form>
+		<div id="dividendInfo" style="color: #666666;background:white;padding:5px;border:1px solid #ccc;border-radius:3px;width:400px;">
+			<strong>Asset</strong>: <span id="assetInfo" /><br>
+			<strong>Total dividend</strong>: <span id="totalSpent" /><br>
+			<strong>Height</strong>: <span id="dividendHeight" /><br>
+			<strong>NXT per share</strong>: <span id="perShare" /><br>
+			<strong>Number of shareholders</strong>: <span id="numberOfShareholders" /><br>
+		</div>
+		<div class="data-container data-loading">
+            <table class="table table-striped table-hover" id="p_dividend_payout_table">
+                <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>Shares owned</th>
+					<th>Amount recieved (NXT)</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                </tbody>
+            </table>
+            <div class="data-loading-container"><img src="img/loading_indicator.gif" alt="Loading..." width="32" height="32" /></div>
+            <div class="data-empty-container"><p>Blockchain status could not be loaded.</p></div>
+        </div>
+    </section>
+</div>
